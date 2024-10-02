@@ -1,0 +1,3 @@
+var Resultado;
+
+var resultado;
