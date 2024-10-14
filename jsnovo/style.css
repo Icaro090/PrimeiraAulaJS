@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #000524;
+    color: white;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    font-size: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+#botao:hover{
+    cursor: pointer;
+    color: white;
+    background-color: white;
+}
+#botao{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 30px;
+    width: 400px;
+    height: 200px;
+    font-size: 60px;
+}
+#botao a{
+    text-decoration: none;
+    color: white;
+}
+#botao a:hover{
+    color: pink;
+}

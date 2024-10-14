@@ -48,8 +48,6 @@ ul a:hover{
     width: 600px;
     height: 400px;
     border-left: 3px solid black;
-    border-right: 3px solid black;
-    box-shadow: 0px 0px 10px 0px black;
     border-radius: 30px;
 }
 .secao_1:hover{
@@ -72,11 +70,6 @@ ul a:hover{
 }
 .img{
     height: 100%;
-}
-.img:hover{
-    scale: 1.1;
-    transition: 0.4s;
-    cursor: pointer;
 }
 .categorias{
     display: flex;
@@ -133,7 +126,6 @@ ul a:hover{
     display: flex;
 }
 .imagens_3{
-    background-color: black;
     display: flex;
     gap: 3rem;
 }
@@ -145,7 +137,7 @@ ul a:hover{
     justify-content: center;
     color: white;
 }
-.textos_2{
+.textos_dois{
     display: flex;
     flex-direction: column;
     height: 400px;
