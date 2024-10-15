@@ -9,6 +9,16 @@
 .titulo{
     font-family: "Archivo Black", sans-serif;
     font-size: 40px;
+    cursor: pointer;
+}
+.titulo_dois{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 60px;
+    text-shadow: 10px 6px 4px gray;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    border-radius: 30px;
+    padding: 1rem;
 }
 .menu{
     padding: 2rem;
@@ -121,13 +131,12 @@ ul a:hover{
     background-color: black;
     display: flex;
     gap: 3rem;
-}
-.imagens_2{
-    display: flex;
+    width: auto;
 }
 .imagens_3{
     display: flex;
     gap: 3rem;
+    width: auto;
 }
 .textos{
     display: flex;
@@ -156,4 +165,45 @@ ul a:hover{
 .jogo{
     height: 500px;
     width: auto;
+}
+.links_rodape{
+    display: flex;
+    gap: 3rem;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 2rem;
+    border-radius: 20px;
+}
+.links_rodape a{
+    font-size: 18px;
+}
+.rodape{
+    padding: 4rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid black;
+}
+.descricao{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    position: sticky;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 0.8rem;
+    z-index: 1000;
+    left: 90%;
+    top: 90%;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.button a:hover{
+    opacity: 80%;
+}
+
+#btn{
+    cursor: pointer;
 }
